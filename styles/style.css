@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    background-color: antiquewhite;
+    border: 2px solid #e4e8ec;
+}
+
+.left-side {
+    background-color:#F0D9D1;
+    height: 100vh;
+    text-align: center;
+    width: 30%;
+}
+
+img {
+    width: 65%;
+    border: 2px solid navajowhite;
+    border-style: outset;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 28vh;
+    margin-bottom: 15px;
+}
+
+img:hover {
+    width: 75%;
+}
+
+.menu {
+    border: navajowhite;
+    border-radius: 15%; 
+    border-style: outset; 
+    padding: 1%; 
+    background-color: #999B85; 
+    color: whitesmoke;
+    display: block;
+    margin: 5px;
+    font-size: larger;
+}
+ 
+.menu:hover {
+    background-color: #e4e8ec;
+    color: #999B85;
+} 
+
+.right-side {
+    border-left: 4px solid navajowhite;
+    background-color:#999B85;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 15%;
+}
+
+h1 {
+    color: whitesmoke;
+    padding-left:  10%;
+    font-family: serif;  
+    font-size: 50px;
+}
+
+h3 {
+    color: navajowhite;
+    padding-left: 5%;
+    font-family: serif;    
+}
+
+.one {
+    padding-left: 10%;
+    font-size: larger;
+}
+
+.one a {
+    color: navajowhite;
+}
+
+.personal-data {
+    width: 100%;
+    color: #F0D9D1;
+    text-align: left;
+    font-family: serif;
+    padding-left: 15px;
+}
+
+.description {
+    margin: 3%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.social-networks {
+    text-align: left;
+    font-size: larger;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.social-networks a {
+    border: navajowhite;
+    border-radius: 25%;
+    border-style: outset;
+    padding: 24px;
+    background-color: #F0D9D1;
+    color: #999B85;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.social-networks a:hover {
+    background-color: whitesmoke;
+    color: #999B85;
+}
+
+.list {
+    width: 80%;
+    color: #F0D9D1;
+    text-align: left;
+    font-family: serif;
+    font-size: x-large;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+dl { 
+    margin-left: 20px;
+}
